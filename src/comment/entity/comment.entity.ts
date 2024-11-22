@@ -12,8 +12,8 @@ import {
   TreeLevelColumn,
   TreeParent,
 } from 'typeorm';
-import { Like } from '../../like/like.entity';
-import { Report } from '@src/report/report.entity';
+import { Report } from '@src/report/entity/report.entity';
+import { Like } from '@src/like/entity/like.entity';
 
 @Entity()
 @Tree('closure-table')
